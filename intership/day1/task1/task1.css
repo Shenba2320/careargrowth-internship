@@ -16,10 +16,12 @@ body {
 .logo {
   color: black;
   font-size: 30px;
+  cursor: pointer;
 }
 
 .logo span {
   color: blueviolet;
+  cursor: pointer;
 }
 
 .menu-bar {
@@ -40,9 +42,9 @@ body {
 }
 
 .menu-bar ul li {
-  /* width: 120px; */
+ 
   padding: 10px 30px;
-  /* text-align: center; */
+ 
 
   position: relative;
 }
