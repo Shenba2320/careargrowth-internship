@@ -1,0 +1,27 @@
+.responsive {overflow: auto;}
+
+#content {margin-left: 4px;}
+
+#box{
+  float: none;
+  width: auto;
+}
+
+#boxlist {
+  margin: 0;
+  padding: 0;
+}
+
+.list {
+  background: #8bdbe9;
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
+  list-style-type: none;
+  margin: 8px;
+  padding: 4px;
+}
+
+@media screen and (min-width: 480px) {
+  #box {width: 200px; float: left;}
+  #content {margin-left: 216px;}
+}
